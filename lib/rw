@@ -1,0 +1,22 @@
+ // ListView.builder(
+          //   itemCount: localData.length,
+          //   itemBuilder: (context, index) {
+          //     return const Card(
+          //       color: Colors.blue,
+          //       // child: SizedBox(
+          //       //   height: 80,
+          //       //   width: double.infinity,
+          //       //   child: Row(children: [
+          //       //     Column(
+          //       //       children: [Text("title"), Text("title")],
+          //       //     ),
+          //       //     // Padding(
+          //       //     //   padding: EdgeInsetsDirectional.only(end: 10),
+          //       //     //   child: Icon(Icons.arrow_right_sharp),
+          //       //     // )
+          //       //   ]
+          //       //   ),
+          //       // ),
+          //     );
+          //   },
+          // )
