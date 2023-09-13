@@ -37,6 +37,9 @@ class _profileViewState extends State<profileView> {
                 children: [
                   CircleAvatar(
                     maxRadius: 40,
+                    backgroundImage: NetworkImage(
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKMuOTX3KyqennmA8OaXNwgsJFuYvfxpSESQ&usqp=CAU",
+                    ),
                   ),
                   Row(
                     children: [
@@ -248,7 +251,7 @@ class _profileViewState extends State<profileView> {
               padding: const EdgeInsets.only(top: 20.0),
               child: TextButton(
                   onPressed: () {
-                     Navigator.push(
+                    Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => seetingView()),
                     );

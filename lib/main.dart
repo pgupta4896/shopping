@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shoppingapp/helperView/bottomTabbar.dart';
+import 'package:shoppingapp/screens/loginflow/loginView.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,8 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Shopping',
       debugShowCheckedModeBanner: false,
-      home: bottomNavigationBar(),
+      home: loginView(),
     );
   }
 }
-

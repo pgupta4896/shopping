@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shoppingapp/screens/bagview.dart';
 import 'package:shoppingapp/screens/favoritesView.dart';
-import 'package:shoppingapp/screens/home.dart';
-import 'package:shoppingapp/screens/profileView.dart';
+import 'package:shoppingapp/screens/home/home.dart';
+import 'package:shoppingapp/screens/profile/profileView.dart';
 import 'package:shoppingapp/screens/shopView.dart';
 
 class bottomNavigationBar extends StatefulWidget {

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shoppingapp/helper/assest_parth.dart';
+import 'package:shoppingapp/screens/home/homedetails.dart';
 
 class homeView extends StatefulWidget {
   const homeView({super.key});
@@ -107,7 +108,10 @@ class _homeViewState extends State<homeView> {
                   ),
                   TextButton(
                       onPressed: () {
-                        //acgio
+                         Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => detailsHome())
+                    );
                       },
                       child: Text(
                         "view all",

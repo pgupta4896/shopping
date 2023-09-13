@@ -8,4 +8,11 @@ class AssestPart {
   final rightArrow = "assest/image/right-arrow.png";
   final backIcon = "assest/image/back.png";
   final megnifireIcon = "assest/image/magnifier.png";
+  final demo4 = "assest/image/demo4.jpg";
+  final demo5 = "assest/image/demo5.jpg";
+  final homecover = "assest/image/homeCover.jpg";
+  // final megnifireIcon = "assest/image/magnifier.png";
+  // final megnifireIcon = "assest/image/magnifier.png";
+  // final megnifireIcon = "assest/image/magnifier.png";
+  // final megnifireIcon = "assest/image/magnifier.png";
 }
